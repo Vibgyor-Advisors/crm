@@ -1,0 +1,20 @@
+{
+    "formatList": [
+        "xlsx",
+        "csv"
+    ],
+    "formatDefs": {
+        "csv": {
+            "mimeType": "text/csv",
+            "fileExtension": "csv"
+        },
+        "xlsx": {
+            "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "fileExtension": "xlsx"
+        }
+    },
+    "exportFormatClassNameMap": {
+        "csv": "Espo\\Tools\\Export\\Formats\\Csv",
+        "xlsx": "Espo\\Tools\\Export\\Formats\\Xlsx"
+    }
+}

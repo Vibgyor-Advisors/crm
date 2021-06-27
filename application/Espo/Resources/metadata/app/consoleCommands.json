@@ -1,0 +1,5 @@
+{
+    "import": {
+        "className": "Espo\\Classes\\ConsoleCommands\\Import"
+    }
+}

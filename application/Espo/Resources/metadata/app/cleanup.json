@@ -1,0 +1,10 @@
+{
+    "reminders": {
+        "className": "Espo\\Classes\\Cleanup\\Reminders",
+        "order": 10
+    },
+    "webhookQueue": {
+        "className": "Espo\\Classes\\Cleanup\\WebhookQueue",
+        "order": 11
+    }
+}
